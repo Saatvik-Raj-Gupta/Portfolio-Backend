@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/about")
+@RequestMapping("/api")
 class AboutController {
 
     private final AboutService aboutService;
@@ -19,7 +19,7 @@ class AboutController {
         this.aboutService = aboutService;
     }
 
-    @GetMapping("/personal")
+    @GetMapping("/about")
     public PersonalInfo getPersonalInfo() {
         return aboutService.getPersonalInfo();
     }
