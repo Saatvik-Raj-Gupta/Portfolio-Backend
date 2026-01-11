@@ -1,11 +1,11 @@
-package com.saatvik.DTO;
+package com.saatvik.dto;
 
 import org.springframework.stereotype.Component;
 
 import java.util.Map;
 
 @Component
-class PersonalInfo {
+public class PersonalInfo {
     private String name;
     private String headline;
     private Map<String, String> contactDetails;
@@ -18,24 +18,28 @@ class PersonalInfo {
     public void setName(String name) {
         this.name = name;
     }
+
     public String getHeadline() {
         return this.headline;
     }
     public void setHeadline(String headline) {
         this.headline = headline;
     }
+
     public Map<String, String> getContactDetails() {
         return this.contactDetails;
     }
     public void setContactDetails(Map<String, String> contactDetails) {
         this.contactDetails = contactDetails;
     }
+
     public String getAbout() {
         return this.about;
     }
     public void setAbout(String about) {
         this.about = about;
     }
+
     public Map<String, String> getLinks() {
         return this.links;
     }

@@ -1,18 +1,19 @@
-package com.saatvik.DTO;
+package com.saatvik.dto;
 
 import org.springframework.stereotype.Component;
 
-import java.util.Date;
+import java.time.LocalDate;
+import java.util.List;
 
 @Component
-class EducationDTO {
+public class EducationDTO {
     private String instituteName;
     private String degree;
     private String fieldOfStudy;
-    private Date startDate;
-    private Date endDate;
+    private LocalDate startDate;
+    private LocalDate endDate;
     private Double grade;
-    private String[] subjects;
+    private List<String> subjects;
 
     public String getInstituteName(){
         return this.instituteName;
@@ -35,17 +36,17 @@ class EducationDTO {
         this.fieldOfStudy = fieldOfStudy;
     }
 
-    public Date getStartDate(){
+    public LocalDate getStartDate(){
         return this.startDate;
     }
-    public void setStartDate(Date startDate){
+    public void setStartDate(LocalDate startDate){
         this.startDate = startDate;
     }
 
-    public Date getEndDate(){
+    public LocalDate getEndDate(){
         return this.endDate;
     }
-    public void setEndDate(Date endDate) {
+    public void setEndDate(LocalDate endDate) {
         this.endDate = endDate;
     }
 
@@ -56,10 +57,10 @@ class EducationDTO {
         this.grade = grade;
     }
 
-    public String[] getSubjects(){
+    public List<String> getSubjects(){
         return this.subjects;
     }
-    public void setSubjects(String[] subjects){
+    public void setSubjects(List<String> subjects){
         this.subjects = subjects;
     }
 }

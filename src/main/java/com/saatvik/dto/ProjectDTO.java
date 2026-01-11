@@ -1,13 +1,15 @@
-package com.saatvik.DTO;
+package com.saatvik.dto;
 
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Component
-class ProjectDTO {
+public class ProjectDTO {
     private String title;
     private String shortDescription;
     private String detailedDescription;
-    private String[] techStack;
+    private List<String> techStack;
     private String role;
     private String highlights;
     private String gitHubLink;
@@ -33,10 +35,10 @@ class ProjectDTO {
         this.detailedDescription = detailedDescription;
     }
 
-    public String[] getTechStack() {
+    public List<String> getTechStack() {
         return techStack;
     }
-    public void setTechStack(String[] techStack) {
+    public void setTechStack(List<String> techStack) {
         this.techStack = techStack;
     }
 

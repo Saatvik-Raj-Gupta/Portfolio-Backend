@@ -1,12 +1,18 @@
-package com.saatvik.DTO;
+package com.saatvik.dto;
 
 import org.springframework.stereotype.Component;
 
 @Component
-class SkillDTO {
+public class SkillDTO {
     private String name;
     private Category category;
     private Proficiency proficiency;
+
+    public SkillDTO(String name, Category category, Proficiency proficiency) {
+        this.name = name;
+        this.category = category;
+        this.proficiency = proficiency;
+    }
 
     public String getName() {
         return name;

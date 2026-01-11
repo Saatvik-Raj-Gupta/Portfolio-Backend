@@ -1,14 +1,25 @@
-package com.saatvik.DTO;
+package com.saatvik.dto;
 
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Component
-class ExperienceDTO {
+public class ExperienceDTO {
     private String company;
     private String role;
     private String duration;
-    private String[] responsibilities;
-    private String[] achievements;
+    private List<String> responsibilities;
+    private List<String> achievements;
+
+    // Constructor
+    public ExperienceDTO(String company, String role, String duration, List<String> responsibilities, List<String> achievements) {
+        this.company = company;
+        this.role = role;
+        this.duration = duration;
+        this.responsibilities = responsibilities;
+        this.achievements = achievements;
+    }
 
     // Getters and Setters
     public String getCompany() {
@@ -32,17 +43,17 @@ class ExperienceDTO {
         this.duration = duration;
     }
 
-    public String[] getResponsibilities() {
+    public List<String> getResponsibilities() {
         return responsibilities;
     }
-    public void setResponsibilities(String[] responsibilities) {
+    public void setResponsibilities(List<String> responsibilities) {
         this.responsibilities = responsibilities;
     }
 
-    public String[] getAchievements() {
+    public List<String> getAchievements() {
         return achievements;
     }
-    public void setAchievements(String[] achievements) {
+    public void setAchievements(List<String> achievements) {
         this.achievements = achievements;
     }
 }
