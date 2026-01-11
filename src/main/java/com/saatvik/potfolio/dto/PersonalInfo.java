@@ -1,10 +1,7 @@
-package com.saatvik.dto;
-
-import org.springframework.stereotype.Component;
+package com.saatvik.potfolio.dto;
 
 import java.util.Map;
 
-@Component
 public class PersonalInfo {
     private String name;
     private String headline;

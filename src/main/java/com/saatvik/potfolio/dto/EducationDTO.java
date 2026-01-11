@@ -1,11 +1,9 @@
-package com.saatvik.dto;
+package com.saatvik.potfolio.dto;
 
-import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 import java.util.List;
 
-@Component
 public class EducationDTO {
     private String instituteName;
     private String degree;

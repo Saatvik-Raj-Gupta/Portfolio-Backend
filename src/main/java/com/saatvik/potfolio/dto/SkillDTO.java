@@ -1,8 +1,5 @@
-package com.saatvik.dto;
+package com.saatvik.potfolio.dto;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class SkillDTO {
     private String name;
     private Category category;

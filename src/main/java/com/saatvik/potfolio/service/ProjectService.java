@@ -1,6 +1,6 @@
-package com.saatvik.service;
+package com.saatvik.potfolio.service;
 
-import com.saatvik.dto.ProjectDTO;
+import com.saatvik.potfolio.dto.ProjectDTO;
 import org.springframework.stereotype.Service;
 
 

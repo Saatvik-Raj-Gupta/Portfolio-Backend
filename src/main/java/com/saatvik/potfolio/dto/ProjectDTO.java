@@ -1,10 +1,7 @@
-package com.saatvik.dto;
-
-import org.springframework.stereotype.Component;
+package com.saatvik.potfolio.dto;
 
 import java.util.List;
 
-@Component
 public class ProjectDTO {
     private String title;
     private String shortDescription;

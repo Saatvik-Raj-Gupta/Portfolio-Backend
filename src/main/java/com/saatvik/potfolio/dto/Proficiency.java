@@ -1,4 +1,4 @@
-package com.saatvik.dto;
+package com.saatvik.potfolio.dto;
 
 public enum Proficiency {
     BEGINNER,

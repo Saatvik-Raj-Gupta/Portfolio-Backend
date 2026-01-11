@@ -1,7 +1,7 @@
-package com.saatvik.service;
+package com.saatvik.potfolio.service;
 
-import com.saatvik.dto.EducationDTO;
-import com.saatvik.dto.PersonalInfo;
+import com.saatvik.potfolio.dto.EducationDTO;
+import com.saatvik.potfolio.dto.PersonalInfo;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
