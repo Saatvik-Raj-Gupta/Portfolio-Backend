@@ -17,7 +17,7 @@ public class ExperienceService {
                         "Involved in writing Java based services for FileNet integrations."
                 ),List.of()
                 ),
-                new ExperienceDTO("Infosys", "system Engineer Trainee", "July 2025-December 2025", List.of(
+                new ExperienceDTO("Infosys", "System Engineer Trainee", "July 2025-December 2025", List.of(
                         "Underwent rigorous training in FileNet, BAW.",
                         "Completed projects simulating real-world scenarios using learned technologies.",
                         "L2 support for IBM FileNet systems provided production incident troubleshooting"),

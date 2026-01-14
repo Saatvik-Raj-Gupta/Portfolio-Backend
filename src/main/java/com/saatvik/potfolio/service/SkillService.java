@@ -23,7 +23,7 @@ public class SkillService {
             new SkillDTO("MongoDB",   Category.DATABASE,Proficiency.INTERMEDIATE),
             new SkillDTO("PyTorch", Category.ML_DL, Proficiency.ADVANCED),
             new SkillDTO("Scikit-Learn",   Category.ML_DL,Proficiency.ADVANCED) ,
-            new SkillDTO("LLms (Gemini, GPT-4)",   Category.ML_DL,Proficiency.INTERMEDIATE),
+            new SkillDTO("LLMs (Gemini, GPT-4)",   Category.ML_DL,Proficiency.INTERMEDIATE),
             new SkillDTO("Docker",  Category.TOOL,Proficiency.BEGINNER),
             new SkillDTO("Git & GitHub", Category.TOOL,Proficiency.ADVANCED),
             new SkillDTO("Kubernetes", Category.TOOL,Proficiency.BEGINNER),

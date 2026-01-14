@@ -17,7 +17,7 @@ public class ProjectService {
         project1.setTechStack(java.util.Arrays.asList("Python", "PyTorch", "OPenCV", "REACT", "FASTAPI"));
         project1.setRole("ML Developer");
         project1.setHighlights("Automated manga text detection and translation | Achieved 95% text detection accuracy | End-to-end pipeline from image to translated output");
-        project1.setGitHubLink("");
+        project1.setGitHubLink("https://github.com/CodeSage4/manga-translator");
 
         ProjectDTO project2 = new ProjectDTO();
         project2.setTitle("BERT Text Summarization");

@@ -21,10 +21,10 @@ public class AboutService {
                 "Phone", "+91-9315516515"));
         info.setAbout("I build scalable ML systems and full-stack applications.");
         info.setLinks(Map.of(
-                "Github","https://github.com/yourusername",
-                "Linkedin","https://linkedin.com/in/yourusername",
-                "Kaggle","https://kaggle.com/yourusername",
-                "Leetcode","https://leetcode.com/yourusername"));
+                "Github","https://github.com/Saatvik-Raj-Gupta",
+                "Linkedin","https://www.linkedin.com/in/saatvik-gupta-ml",
+                "Kaggle","https://www.kaggle.com/saatvikrajgupta",
+                "Leetcode","https://leetcode.com/u/Saatvik_Raj_Gupta/"));
         return info;
     }
 
