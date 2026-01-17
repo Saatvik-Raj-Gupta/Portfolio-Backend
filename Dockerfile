@@ -1,7 +1,7 @@
 # Dockerfile
 
 # Builder stage: build with Java 25
-FROM maven:3.9.4-eclipse-temurin-25 AS builder
+FROM maven:3.9.4-eclipse-temurin-21 AS builder
 WORKDIR /workspace
 
 COPY pom.xml ./
@@ -11,7 +11,7 @@ COPY src ./src
 RUN mvn -B -DskipTests package
 
 # Runtime stage: JRE 25
-FROM eclipse-temurin:25-jre
+FROM eclipse-temurin:21-jre
 WORKDIR /app
 
 COPY --from=builder /workspace/target/*.jar app.jar
